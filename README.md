@@ -1,1 +1,1 @@
-# single-page-web-apps-with-angularjs
+# Single Page Web Applications with AngularJS
