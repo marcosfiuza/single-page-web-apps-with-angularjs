@@ -1,0 +1,4 @@
+<ul class="list-unstyled">
+  <li ng-repeat="item in foundItemsCtrl.foundItems"><strong>{{ item.name }}</strong><br /><small>{{ item.short_name }}</small><br />{{ item.description }}<br /><button class="btn btn-xs btn-danger" ng-click="foundItemsCtrl.remove($index);">Don't want this one!</button></li>
+</ul>
+<div ng-transclude ng-if="foundItemsCtrl.foundItems.length == 0"></div>
